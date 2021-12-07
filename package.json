@@ -1,0 +1,42 @@
+{
+  "_from": "discord-slash-cmds",
+  "_id": "discord-slash-cmds@1.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-asgypuiwoDdzrNJEFysbBEFMEnynmdeuuvvjhe1fPBbcK27FzT2tdmP1rcOLb94HwmnmQ/TK1jyAzUhs9ygTfQ==",
+  "_location": "/discord-slash-cmds",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "discord-slash-cmds",
+    "name": "discord-slash-cmds",
+    "escapedName": "discord-slash-cmds",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/discord-slash-cmds/-/discord-slash-cmds-1.1.1.tgz",
+  "_shasum": "e69bf143d974a54578f13889d9d37d9c75c16a62",
+  "_spec": "discord-slash-cmds",
+  "_where": "D:\\NPMPackages",
+  "author": "",
+  "bundleDependencies": false,
+  "dependencies": {
+    "discord-buttons": "^4.0.0",
+    "discord.js": "^12.5.3"
+  },
+  "deprecated": false,
+  "description": "(This is ONLY for version 12 of discord.js)\r This program is used for creating slash commands for discord",
+  "devDependencies": {},
+  "license": "ISC",
+  "main": "index.js",
+  "name": "discord-slash-cmds",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.1"
+}
