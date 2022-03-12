@@ -1,6 +1,14 @@
-# Thank you for using discord-slash-cmds
+# Discord-slash-cmds
+<img src="https://img.shields.io/npm/dt/discord-slash-cmds"></img><img src="https://img.shields.io/npm/v/discord-slash-commands"></img>
+
 (This is ONLY for version 12 of discord.js)
+
+
+
 This program is used for creating slash commands for discord
+
+*Having trouble? Join our discord server! https://discord.gg/YBtaTV6Va6*
+
 
 First, you need to set up your discord bot (This project is using env)
 
@@ -39,8 +47,8 @@ The example command will be `/hello`
 const Discord = require("discord.js")
 const client = new Discord.Client()
 
-const discordSlashCmds = require("discord-slash-cmds")
-discordSlashCmds.SlashCommand(client, "hello", "Says hello!", 4, function(args) {
+const { SlashCommand } = require("discord-slash-cmds")
+const hellocommand = new SlashCommand(client, "hello", "Says hello!", 4, function(args) { // Now using constructors!
     
 }, "Hello, Thanks for using my package!")
 ```
@@ -51,13 +59,13 @@ if you would like to create a slash command just for a specific server, just add
 const Discord = require("discord.js")
 const client = new Discord.Client()
 
-const discordSlashCmds = require("discord-slash-cmds")
-discordSlashCmds.SlashCommand(client, "hello", "Says hello!", 4, function(args) {
+const { SlashCommand } = require("discord-slash-cmds")
+const hellocommand = new SlashCommand(client, "hello", "Says hello!", 4, function(args) { // Now using constructors!
 
 }, "Hello, Thanks for using my package!", 1234567890) // Replace '1234567890' with the id of the server
 ```
 
-
+ 
 
 # Arguments
 
